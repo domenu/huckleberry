@@ -23,9 +23,11 @@ h2 {
   margin: 0;
 }
 
-.max-width-wrapper {
-  margin-left: 128px;
-  margin-right: 128px;
+@media (min-width: 768px) {
+  .max-width-wrapper {
+    margin-left: 128px;
+    margin-right: 128px;
+  }
 }
 
 header {
